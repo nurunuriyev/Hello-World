@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "Hello World"
+NAME=Nuru
+SURNAME=Nuriyev
+echo "Hello $NAME $SURNAME"
