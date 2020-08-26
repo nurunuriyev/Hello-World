@@ -14,7 +14,10 @@ pipeline {
         stage("deploy") {
             steps {
                 echo 'deploying the application...'
-                sh hello-world.sh
+                echo BRANCH_NAME
+                echo JOB_BASE_NAME
+                echo BUILD_TAG
+                echo BUILD_URL
             }
         }
     }
